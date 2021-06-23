@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/chrome-android-animation/static/css/main.15dd08ee.chunk.css",
+    "main.js": "/chrome-android-animation/static/js/main.db397a8a.chunk.js",
+    "main.js.map": "/chrome-android-animation/static/js/main.db397a8a.chunk.js.map",
+    "runtime-main.js": "/chrome-android-animation/static/js/runtime-main.44dc26e5.js",
+    "runtime-main.js.map": "/chrome-android-animation/static/js/runtime-main.44dc26e5.js.map",
+    "static/js/2.d6b219ba.chunk.js": "/chrome-android-animation/static/js/2.d6b219ba.chunk.js",
+    "static/js/2.d6b219ba.chunk.js.map": "/chrome-android-animation/static/js/2.d6b219ba.chunk.js.map",
+    "index.html": "/chrome-android-animation/index.html",
+    "static/css/main.15dd08ee.chunk.css.map": "/chrome-android-animation/static/css/main.15dd08ee.chunk.css.map",
+    "static/js/2.d6b219ba.chunk.js.LICENSE.txt": "/chrome-android-animation/static/js/2.d6b219ba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44dc26e5.js",
+    "static/js/2.d6b219ba.chunk.js",
+    "static/css/main.15dd08ee.chunk.css",
+    "static/js/main.db397a8a.chunk.js"
+  ]
+}
