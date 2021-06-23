@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+:root{
+    --color-light: #e1e1e1;
+    --color-light-faded: #e1e1e188;
+    --color-dark-blue:   rgba(0, 31, 206, 0.8);
+
+    --card-box-shadow: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+    height: 50px;
+    width: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+div{
+    color: var(--color-light);
+}
+
+.card{
+    background-color: #101010;
+    color: var(--color-light);
+
+    width: 11em;
+    height: 15em;
+    display: flex;
+
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: none;
+
+    text-align: center;
+
+    position: absolute;
+    animation: translation 1s infinite alternate;
+}
+
+@keyframes translation {
+    0%{
+      left: 0;
+    }
+    100%{
+      left: calc(100% - 11em);
+    }
   }
+
+.card.glow{
+    box-shadow:  
+    1px 1px 5px #dbecff,
+    -1px -1px 5px #91c4ff,
+    0px 0px 5px #0077ff99,
+    0px 0px 10px #0077ff99,
+    0px 0px 15px #0077ff99,
+    0px 0px 20px #0077ff99;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inner-border{
+    border: 1px solid var(--color-light-faded);
+    flex: 1;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.number{
+    font-size: x-large;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.number.glow{
+    --text-shadow-prison-number: 
+    0px 0px 5px #006debff,
+    0px 0px 10px #006debff,
+    0px 0px 15px #006debff,
+    0px 0px 25px #006debff,
+    0px 0px 35px #006debff,
+    0px 0px 50px #006debff,
+    0px 0px 70px #006debff;
+    text-shadow: var(--text-shadow-prison-number);
+    color: rgb(218, 235, 255);
 }
+
