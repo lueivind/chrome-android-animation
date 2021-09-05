@@ -32,12 +32,21 @@ div{
     animation: translation 1s infinite alternate;
 }
 
-@keyframes translation {
+/* @keyframes translation {
     0%{
       left: 0;
     }
     100%{
       left: calc(100% - 11em);
+    }
+  } */
+
+  @keyframes translation {
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(calc(100vw - 11em));
     }
   }
 
